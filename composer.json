@@ -1,0 +1,19 @@
+{
+    "name": "phpfui/common",
+    "description": "Common code for BicycleClubWebsite2023 and other private web apps",
+    "minimum-stability": "stable",
+    "homepage": "http://www.phpfui.com",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "Bruce Wells",
+        "email": "brucekwells@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2 <8.4"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/App/"}
+    },
+}
